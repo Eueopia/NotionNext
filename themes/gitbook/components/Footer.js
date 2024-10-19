@@ -13,6 +13,11 @@ const Footer = ({ siteInfo }) => {
     parseInt(since) < currentYear ? since + '-' + currentYear : currentYear
 
   return (
+     <footer >
+     
+
+     
+    </footer>
   
   )
 }
