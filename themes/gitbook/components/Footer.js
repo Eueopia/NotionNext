@@ -13,9 +13,7 @@ const Footer = ({ siteInfo }) => {
     parseInt(since) < currentYear ? since + '-' + currentYear : currentYear
 
   return (
-    <footer className='z-20 border p-2 rounded-lg bg:white dark:border-black dark:bg-hexo-black-gray justify-center text-center w-full text-sm relative'>
-     
-    </footer>
+  
   )
 }
 
