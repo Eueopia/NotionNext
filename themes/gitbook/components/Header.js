@@ -69,8 +69,7 @@ export default function Header(props) {
         <div className='px-5 max-w-screen-4xl w-full flex gap-x-3 justify-between items-center'>
           {/* 左侧*/}
           <div className='flex'>
-            <LogoBar {...props} />
-
+          
             {/* 桌面端顶部菜单 */}
             <div className='hidden md:flex'>
               {links &&
